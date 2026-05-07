@@ -20,8 +20,8 @@ app.add_middleware(
 )
 
 
-model = joblib.load("model/personality_model.pkl")
-scaler = joblib.load("model/scaler.pkl")
+model = joblib.load("backend/model/personality_model.pkl")
+scaler = joblib.load("backend/model/scaler.pkl")
 
 
 stage_fear_mapping = {"No": 0, "Yes": 1}
